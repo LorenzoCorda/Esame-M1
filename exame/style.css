@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.logo img {
+  width: 200px;
+  margin-left: 110px;
+}
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+#button-resume {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+/*  */
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+#left-side {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  gap: 15px;
+}
+.first {
+  border-right: 1px solid black;
+
+  width: 60%;
+  padding: 0 80px;
+}
+.first article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.text div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.text img {
+  border-radius: 4px;
+}
+.text h2 {
+  margin-bottom: 5px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pic:first-child {
+  height: 20px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+}
+.right-side img {
+  margin: 50px 50px;
+  width: 200px;
+}
+.right-side a {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+#connect {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  margin: 15px 15px;
+}
+#connect:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.hobby button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+}
+.hobby button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.who-follow h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 300px;
+}
+.follow img {
+  width: 50px;
+  border-radius: 25px;
+  padding: 0;
+  margin: 0;
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.follow p {
+  margin-top: 45px;
+  margin: 0;
+  margin-right: 110px;
+}
+.follow button {
+  padding: 15px;
+  height: 42px;
+  border-radius: 20px;
+  margin-left: 50px;
+  border: none;
+}
+.recently {
+  display: flex;
+  gap: 15px;
+}
+.recently img {
+  width: 25px;
+  margin: 0;
+  border-radius: 4px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.recently p {
+  margin-top: 58px;
+}
+.save-article {
+  text-align: left;
+  margin-left: 100px;
+}
+.who-follow button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+#button-resume:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.final {
+  display: flex;
+  gap: 15px;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+div h3 {
+  margin-right: 300px;
+  margin-top: 20px;
+}
